@@ -10,8 +10,14 @@ import SwiftUI
 @main
 struct HDPlayerApp: App {
     var body: some Scene {
+//        WindowGroup {
+//            ContentView()
+//        }
+        
         WindowGroup {
-            ContentView()
+//            AVPlayerContentView(expandSheet: .constant(true), animation: Namespace().wrappedValue)
+            AVPlayerContentView()
+                .preferredColorScheme(.dark)
         }
     }
 }
